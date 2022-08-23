@@ -1,14 +1,21 @@
 html {
-  background: radial-gradient(farthest-corner at right top, #21a09d, #06182d);
-  height: 100%;
+  background: no-repeat radial-gradient(farthest-corner at right top, #21a09d, #06182d);
   font-family: 'Roboto', cursive;
 }
 
-.conteudo {
-  padding: 10vh 3em 0;
+body {
   display: flex;
-  align-items: flex-start;
-  gap: 2em;
+  justify-content: center;
+}
+
+.conteudo {
+  padding: 20px;
+  justify-items: end;
+}
+
+.lista {
+  margin: 0;
+  padding: 20px 0;
 }
 
 .principal {
@@ -157,11 +164,6 @@ html {
   background-color: #40112d;
   color: #ffffff;
   cursor: pointer;
-}
-
-.lista {
-  margin: 0;
-  padding: 0;
 }
 
 .item {

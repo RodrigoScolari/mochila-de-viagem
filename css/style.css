@@ -9,8 +9,8 @@ body {
 }
 
 .conteudo {
+  width: 50vw;
   padding: 20px;
-  justify-items: end;
 }
 
 .lista {
@@ -21,7 +21,6 @@ body {
 .principal {
   flex-grow: 1;
   flex-basis: auto;
-  min-width: 600px;
   padding: 4em 2em 2em;
   box-sizing: border-box;
   display: flex;
@@ -189,4 +188,10 @@ body {
   height: 40px;
   background: #c5965f;
   font-weight: 400;
+}
+
+@media (max-width: 800px) {
+  .principal {
+    display: block;
+  }
 }
